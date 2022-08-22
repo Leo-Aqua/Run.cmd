@@ -11,6 +11,7 @@ goto check_Permissions
     ) else (
         echo ERROR: Run as Admin!
         pause >nul
+        exit
     )
 
 :PROGRAMM
