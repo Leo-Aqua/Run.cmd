@@ -16,5 +16,5 @@ goto check_Permissions
 
 :PROGRAMM
     reg DELETE HKEY_CLASSES_ROOT\Directory\Background\shell\RunCmd /f
-
+    echo Done!
     pause >nul
