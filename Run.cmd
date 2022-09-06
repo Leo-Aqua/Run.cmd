@@ -19,4 +19,5 @@ goto check_Permissions
     reg ADD HKEY_CLASSES_ROOT\Directory\Background\shell\RunCmd /v "Extended" 
     reg ADD HKEY_CLASSES_ROOT\Directory\Background\shell\RunCmd /v "Icon" /d "C:\Windows\System32\cmd.exe"
     reg ADD HKEY_CLASSES_ROOT\Directory\Background\shell\RunCmd\command /d "cmd.exe /K"
+    echo Done!
     pause >nul
